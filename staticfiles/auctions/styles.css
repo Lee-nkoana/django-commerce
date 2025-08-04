@@ -1,0 +1,105 @@
+html{
+    height:100%;
+}
+
+body {
+    padding: 0px;
+    background-image: linear-gradient(45deg, #fff, rgb(48, 14, 48));
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav{
+    display: flex;
+    padding: 0px;
+    padding-top: 0px;
+    margin:0px;
+    float: right;
+    height: fit-content;
+}
+
+.main_header{
+    float:left;
+    width: fit-content;
+}
+
+#header_container{
+    margin-bottom: 4px;
+    height:100px;
+}
+
+.filler_Space{
+    height:30px;
+    width: 100%;
+}
+
+.new_post{
+    text-align: center;
+    background: rgba(140, 109, 175, 0.295);
+    border-radius: 0.25em;
+    padding: 2em;
+}
+
+.nav-item{
+    display:flex;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#listing-form{
+    display:flex;
+}
+
+.post-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img{
+    border: 1px solid black;
+    max-width:100%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.test{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 1em 1em;
+    grid-auto-flow: row dense;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#listing_post{
+    display:flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width:75%;
+    margin: 12%;
+    margin-top: 2%;
+    border-radius: 0.70em;
+    background: rgba(140, 109, 175, 0.295);
+}
+
+.listing_img{
+    border:3px solid red;
+}
+
+.card{
+    margin: 1.3rem;
+    display:flex;
+
+}
+
